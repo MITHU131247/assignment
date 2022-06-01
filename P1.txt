@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+    <style type="text/css">
+      a{
+     display:inline;
+	body {
+			position: relative;
+		}
+		.affix {
+			top: 20px;
+		}
+		div.col-sm-9 div {
+			height: 250px;
+			font-size: 28px;
+		}
+		#home {color: #fff; background-color: #1E88E5;}
+		#service1 {color: #fff; background-color: #673ab7;}
+		#service2 {color: #fff; background-color: #ff9800;}
+		#contract {color: #fff; background-color: #00bcd4;}
+		#about-us {color: #fff; background-color: #009688;}
+		
+		@media screen and (max-width: 810px) {
+			#home, #service1, #service2, #contract, #about-us  {
+				margin-left: 150px;
+			}
+		}
+}
+.btn-default {
+              background: purple;
+              color: #fff;
+          }
+     </style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+	
+<body style="background-color:#F2F2F2" data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+<h1>LOGO</h1>
+    <a href="#">HOME</a>
+    <a href="#">ADVERTISERS</a>
+    <a href="#">PUBLISHERS</a>
+    <a href="#">INFLUENCERS</a>
+    <a href="#">AD FORMATS</a>
+    <a href="#">BLOG</a>
+    <a href="#">CONTACT US </a>
+  <a href="#"> <button type="button" class="btn btn-success">LOG IN</button></a>
+  <a href="#"> <button type="button" class="btn btn-info">SIGN UP</button></a>  
+<h1>Here will be a Title</h1>
+<p>Here will be a text</p> 
+<h1>...............................AVAILABLE FOR EVERYONE...............................</h1>
+<p>Here will be a text</p> 
+<div style="border:1px solid #ffffff; float:left ;width:33% ">
+
+<h2>TEXT 1</h2>
+
+<p>Hundreds of talent acquisition firms </p>
+<p>competing to offer the best candidate for the  </p>
+<p>company’s needs. </p>
+<button type="button" class="btn btn-default">Hello 1</button>
+
+</div>
+
+<div style="border:1px solid #ffffff; float:left;width:33%;margin-left:10px;">
+
+<h2>TEXT 2</h2>
+
+<p>The TalentdBID™ B2B platform. Machine </p>  
+<p>learning Privacy data management. Data &  </p>
+<p>information security. </p>
+<button type="button" class="btn btn-default">Hello 2</button>
+
+</div>
+<div style="border:1px solid #ffffff; float:left;width:22%;margin-left:10px">
+
+<h2>TEXT 3</h2>
+
+<p>Best candidates interviewed and endorsed in   </p>
+<p>DAYS, not months as in the traditional Talent   </p>
+<p>Acquisition process. </p>
+<button type="button" class="btn btn-default">Hello 3</button>
+</div>
+<h1>...............................VERSATILE AD FORMATS...............................</h1>
+<br>
+
+		<div class="container">
+		<div class="row">
+			<nav class="col-sm-3" id="myScrollspy">
+			<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+				<li><a href="#home">POP-UNDER</a></li>
+				<li><a href="#BANNER AD">BANNER AD</a></li>
+				<li><a href="#contract">NATIVE </a></li>
+				<li><a href="#about-us">SKIM</a></li>
+				
+			</ul>
+</nav>
+			<div class="col-sm-9">
+			<div id="home">
+				<h1>POP-UNDER</h1>
+				<p>This is home section. In the time of scrolling, look into the navigation bar.
+				 This is home section. In the time of scrolling, look into the navigation bar......</p>
+			</div>
+                   <div id="home">
+				<h1>BANNER ID</h1>
+				<p>This is home section. In the time of scrolling, look into the navigation bar.
+				 This is home section. In the time of scrolling, look into the navigation bar......</p>
+			</div>
+                  
+			
+			<div id="contract">
+				<h1>NATIVE</h1>
+				<p>This is Contract section. In the time of scrolling, look into the navigation bar.
+				 This is Contract section. In the time of scrolling.........</p>
+</div>
+			<div id="about-us" class="container-fluid">
+				<h1>SKIM</h1>
+				<p>This is about us section. In the time of scrolling, look into the navigation bar.
+				 This is about us section. In the time of scrolling.......</p>
+			</div>
+			</div>
+		</div>
+		</div>
+<div style="border:1px solid #ffffff; float:left ;width:25% ">
+
+<h2>TITLE 1</h2>
+
+<p>Hundreds of talent acquisition firms </p>
+<p>competing to offer the best candidate for the  </p>
+<p>company’s needs. </p>
+
+
+</div>
+
+<div style="border:1px solid #ffffff; float:left;width:25%;margin-left:10px;">
+
+<h2>TITLE 2</h2>
+
+<p>The TalentdBID™ B2B platform. Machine </p>  
+<p>learning Privacy data management. Data &  </p>
+<p>information security. </p>
+
+
+</div>
+<div style="border:1px solid #ffffff; float:left;width:25%;margin-left:10px">
+
+<h2>TITLE 3</h2>
+
+<p>Best candidates interviewed and endorsed in   </p>
+<p>DAYS, not months as in the traditional Talent   </p>
+<p>Acquisition process. </p>
+
+</div>
+<div style="border:1px solid #ffffff; float:left;width:22%;margin-left:10px">
+
+<h2>TITLE 4</h2>
+
+<p>Best candidates interviewed and endorsed in   </p>
+<p>DAYS, not months as in the traditional Talent   </p>
+<p>Acquisition process. </p>
+
+</div>
+  <div class="panel-footer">
+<h3>We are social</h3>
+<p>Follow us</p>
+<div>
+<a href="#" ><i class="fa fa-facebook"></i></a>
+
+<a href="#"><i class="fa fa-twitter"></i></a>
+
+<a href="#"><i class="fa fa-google"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+
+<a href="#"><i class="fa fa-linkedin-in"></i></a>
+</div>
+<h1>LOGO</h1>
+<h3>Documentation</h3>
+<ul><a href="#">Terms and policy</a></ul>
+<ul>
+      <a href="#">privacy policy</a></ul>
+     <ul> <a href="#">Cancelation policy</a></li></ul>
+      <ul><a href="#">Blog</a>
+</ul>
+<h3>Links</h3>
+<ul><a href="#">ADVERTISHERS</a></ul>
+<ul>
+      <a href="#">PUBLISHERS</a></ul>
+     <ul> <a href="#">INFLUENCERS</a></li></ul>
+      <ul><a href="#">AD FORMATS</a>
+</ul>
+<h3>Support</h3>
+<ul><a href="#">FAQ</a></ul>
+<ul>
+      <a href="#">MEDIA KIT</a></ul>
+     <ul> <a href="#">Contact us</a></li></ul>
+      
+</ul>
+</div>
+
+
+
+</body>
+</html>
